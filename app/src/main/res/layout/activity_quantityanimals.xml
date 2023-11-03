@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".quantityanimals">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/playbold"
+        android:gravity="center"
+        android:text="FOOD QUANTITY"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <LinearLayout
+        android:id="@+id/linearbtns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.806">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn1"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/buttonbg"
+            android:elevation="50dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/qnt_slot1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttonbg"
+                android:fontFamily="@font/playbold"
+                android:gravity="center"
+                android:text="1-5 KG"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn2"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/buttonbg"
+            android:elevation="50dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/qnt_slot2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttonbg"
+                android:fontFamily="@font/playbold"
+                android:gravity="center"
+                android:text="5-10 KG"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn3"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/buttonbg"
+            android:elevation="50dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/qnt_slot3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttonbg"
+                android:fontFamily="@font/playbold"
+                android:gravity="center"
+                android:text="10-20 KG"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn4"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_margin="25dp"
+            android:background="@drawable/buttonbg"
+            android:elevation="50dp"
+            app:cardCornerRadius="5dp"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:id="@+id/qnt_slot4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/buttonbg"
+                android:fontFamily="@font/playbold"
+                android:gravity="center"
+                android:text=">20 KG"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

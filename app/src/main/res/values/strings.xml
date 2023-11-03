@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodSaver</string>
+    <string name="title_activity_anim_smap">anim_s_map</string>
+    <string name="mapapikey">AIzaSyCiLxZtw7TIZeCA67-H0QnFhPyTtz9n_7Q</string>
+    <string name="title_activity_maps1">Maps1</string>
+    <string name="i_am_here">I am here</string>
+    <string name="provider_failed">Provider Failed</string>
+</resources>

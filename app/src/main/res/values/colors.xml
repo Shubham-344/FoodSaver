@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="click">#bf9b82</color>
+    <color name="btnbg">#D4D0D0</color>
+    <color name="lightgreen">#81E144</color>
+    <color name="darkgreen">#437622</color>
+    <color name="red">#DF1B1B</color>
+    <color name="darkred">#570404</color>
+</resources>

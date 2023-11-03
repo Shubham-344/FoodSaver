@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FWMS"
+        tools:targetApi="31"
+        android:screenOrientation="portrait">
+        <activity
+            android:name=".Maps8"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <activity
+            android:name=".Maps7"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <activity
+            android:name=".Maps6"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <activity
+            android:name=".Maps5"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <activity
+            android:name=".Maps4"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <activity
+            android:name=".Maps3"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <activity
+            android:name=".Maps2"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCWLTkKwptJeszMAMALLoDLRS-O4d11n_c" />
+
+        <activity
+            android:name=".Maps1"
+            android:exported="false"
+            android:theme="@style/strs" />
+        <activity
+            android:name=".stale"
+            android:exported="false"
+            android:theme="@style/strs"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".quantityanimals"
+            android:exported="false"
+            android:theme="@style/strs"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".quantity"
+            android:exported="false"
+            android:theme="@style/strs"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".freshness"
+            android:exported="false"
+            android:theme="@style/strs"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Loading_page"
+            android:exported="true"
+            android:theme="@style/strs"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/strs"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
